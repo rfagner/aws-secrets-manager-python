@@ -1,9 +1,8 @@
 # aws-secrets-manager-python
 
-Abaixo segue exemplo do módulo "secrets_manager.py"
-
 Para acessar uma API Gateway com segurança em Python usando o AWS Secrets Manager, você pode seguir os seguintes passos:
 
+# Abaixo segue exemplo do módulo "secrets_manager.py"
 Acesse o console do AWS Secrets Manager e crie um novo segredo para armazenar suas credenciais de API Gateway. Certifique-se de que o segredo contenha a chave "username" e "password".
 
 Em seu código Python, use o módulo boto3 para obter as credenciais do AWS Secrets Manager. Certifique-se de ter as permissões necessárias para acessar o Secrets Manager.
@@ -13,7 +12,7 @@ Use as credenciais para fazer uma solicitação para a API Gateway. Você pode u
 Certifique-se de gerenciar corretamente as exceções e erros de autenticação ao fazer solicitações para a API Gateway.
 Espero que isso ajude! Lembre-se de que você também precisará configurar corretamente as permissões em sua conta AWS para permitir que a função Lambda acesse o Secrets Manager e a API Gateway.
 
-Agora segue exemplo do módulo "secrets_com_api_key.py"
+# Agora segue exemplo do módulo "secrets_com_api_key.py"
 
 Aqui está um exemplo básico de como usar uma chave de API armazenada no AWS Secrets Manager para autenticar solicitações para uma API Gateway em Python:
 
